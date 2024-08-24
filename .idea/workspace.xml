@@ -5,30 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b8b0fce-51d4-45fd-a7b7-c5553cd4a296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/trip_planner_back.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner/serializer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +24,34 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fire-Fairy84&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fire-Fairy84/trip_planner_back.git&quot;,
+    &quot;accountId&quot;: &quot;3fe15a83-d7ed-4d31-8c42-0e800f6b50f9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2l0uF72f08adbpVzBu4g5nbHAIg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
