@@ -68,7 +68,7 @@ Users "1" -- "0..*" Favorites : saves
 Destinations "1" -- "0..*" Accommodations : contains
 Destinations "1" -- "0..*" Activities : offers
 Destinations "1" -- "0..*" Itineraries : has
-Itineraries "1" -- "0..*" Itinerary_Details : consists of
+Itineraries "1" -- "1..*" Itinerary_Details : consists of
 Accommodations "1" -- "0..1" Itinerary_Details : included in
 Activities "1" -- "0..1" Itinerary_Details : included in
 Itineraries "1" -- "0..*" Favorites : saved by
