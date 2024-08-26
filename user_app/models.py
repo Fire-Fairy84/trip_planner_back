@@ -12,4 +12,4 @@ class User(models.Model):
 
     def __str__(self):
         return f'Usuario: {self.user_name}, Nombre: {self.name}'
-        print('Hola qué tal')
+        print('Hola cómo va')
