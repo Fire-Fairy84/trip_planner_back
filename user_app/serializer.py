@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from trip_planner.models import User
+from user_app.models import User
 
 
-# Serializamos la data que trae ese objeto, en este caso el objeto Person
+# Serializamos la data que trae ese objeto, en este caso el objeto User
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User

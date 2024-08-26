@@ -1,5 +1,5 @@
 from django.contrib import admin
-from trip_planner.models import User
+from user_app.models import User
 
 
 

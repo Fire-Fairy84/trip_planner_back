@@ -1,4 +1,4 @@
-@startuml
+   @startuml
 
 ' Definition of the entities
 
@@ -51,8 +51,6 @@ class Itinerary_Details {
     +day: INTEGER
     +accommodation_id: INTEGER [FK]
     +activity_id: INTEGER [FK]
-    +start_time: TIME
-    +end_time: TIME
 }
 
 class Favorites {

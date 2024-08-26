@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b8b0fce-51d4-45fd-a7b7-c5553cd4a296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/diagram.puml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/diagram.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner_back/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner_back/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner_back/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="UML Sequence" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -45,15 +58,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/TP-5-uml-diagram",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/TP-13-register-user&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
