@@ -80,8 +80,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'travel_planner',
         'USER': 'postgres',
-        'PASSWORD': '1321',
-        'HOST': 'localhost',
+        'PASSWORD': 'password',
+        'HOST': '127.0.0.1',
         'PORT': '5432'
     }
 }
