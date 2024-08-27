@@ -9,4 +9,4 @@ class Destination(models.Model):
 
 
     def __str__(self):
-        return f'Destino: {self.name}, País: {self.country}'
+        return f'Destination: {self.name}, Country: {self.country}'

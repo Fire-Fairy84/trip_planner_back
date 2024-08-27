@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b8b0fce-51d4-45fd-a7b7-c5553cd4a296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/accommodation_app/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accommodation_app/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/trip_planner_back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trip_planner_back.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_app/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/destination_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/destinations/Salto-por-la-ventana.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/utils/img/destinations/Salto-por-la-ventana.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trip_planner_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner_back/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
