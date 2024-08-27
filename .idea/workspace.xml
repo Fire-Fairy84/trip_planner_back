@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b8b0fce-51d4-45fd-a7b7-c5553cd4a296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/destination_app/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/destination_app/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itinerary_app/serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/itinerary_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/trip_planner_back.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/trip_planner_back.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/diagram.puml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trip_planner_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner_back/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/TP-34-create-models" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,12 +40,12 @@
     &quot;assignee&quot;: &quot;Fire-Fairy84&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Fire-Fairy84/trip_planner_back.git",
-    "accountId": "685d5bcb-62c4-4c24-811e-c52c7b84d1d8"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fire-Fairy84/trip_planner_back.git&quot;,
+    &quot;accountId&quot;: &quot;3fe15a83-d7ed-4d31-8c42-0e800f6b50f9&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -47,15 +55,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "DefaultPlantUmlFileTemplate": "UML Sequence",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/TP-34-create-models",
-    "settings.editor.selected.configurable": "preferences.editor"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/TP-34-create-models&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -7,7 +7,7 @@ class Users {
     +name: VARCHAR(100)
     +email: VARCHAR(100) [UNIQUE]
     +password: VARCHAR(100)
-    +registration_date: TIMESTAMP
+    + registration_date: TIMESTAMP
 }
 
 class Destinations {
