@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b8b0fce-51d4-45fd-a7b7-c5553cd4a296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/destination_app/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/destination_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trip_planner_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner_back/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/diagram.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/TP-34-create-models" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -32,12 +35,12 @@
     &quot;assignee&quot;: &quot;Fire-Fairy84&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Fire-Fairy84/trip_planner_back.git",
-    "accountId": "685d5bcb-62c4-4c24-811e-c52c7b84d1d8"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fire-Fairy84/trip_planner_back.git&quot;,
+    &quot;accountId&quot;: &quot;3fe15a83-d7ed-4d31-8c42-0e800f6b50f9&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -52,7 +55,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "DefaultPlantUmlFileTemplate": "UML Sequence",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/TP-34-create-models",
+    "git-widget-placeholder": "feature/TP-5-uml-diagram",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
