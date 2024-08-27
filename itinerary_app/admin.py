@@ -1,5 +1,5 @@
 from django.contrib import admin
-from itinerary_app.models import Itinerary, ItineraryDetails
+from itinerary_app.models import Itinerary, ItineraryDetails, Favorites
 
 
 # # Register your models here.
@@ -14,3 +14,8 @@ class ItineraryAdmin(admin.ModelAdmin):
 @admin.register(ItineraryDetails)
 class ItineraryDetailsAdmin(admin.ModelAdmin):
     list_display = ('itinerary', 'day', 'accommodation', 'activity')
+
+
+@admin.register(Favorites)
+class FavoritesAdmin(admin.ModelAdmin):
+    list_display = ('user', 'itinerary', 'saved_date')

@@ -1,8 +1,14 @@
 from rest_framework import serializers
-from itinerary_app.models import Itinerary, ItineraryDetails
+from itinerary_app.models import Itinerary, ItineraryDetails, Favorites
 
 
 # Serializamos la data que trae ese objeto, en este caso el objeto User
+class FavoritesSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Favorites
+        fields = '__all__'
+
+
 class ItineraryDetailsSerializer(serializers.ModelSerializer):
     class Meta:
         model = ItineraryDetails
