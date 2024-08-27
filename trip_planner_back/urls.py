@@ -24,4 +24,5 @@ urlpatterns = [
     path(BASE_URL, include('user_app.urls')),
     path(BASE_URL, include('destination_app.urls')),
     path(BASE_URL, include('itinerary_app.urls')),
+    path(BASE_URL, include('accommodation_app.urls')),
 ]
