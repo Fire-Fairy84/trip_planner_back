@@ -31,12 +31,12 @@ class Accommodations {
 
 class Activities {
     +id: SERIAL [PK]
-    +destination_id: INTEGER [FK]
-    +name: VARCHAR(100)
-    +description: TEXT
+    +name: VARCHAR(255)
     +type: VARCHAR(50)
-    +estimated_duration: VARCHAR(50)
-    +estimated_cost: DECIMAL(10, 2)
+    +description: TEXT
+    +estimated_price: DECIMAL(10, 2)
+    +destination_id: INTEGER [FK]
+    +image: IMAGE
 }
 
 class Itineraries {
