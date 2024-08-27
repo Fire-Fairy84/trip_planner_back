@@ -10,6 +10,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/destination_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trip_planner_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner_back/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/diagram.puml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +54,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;DefaultPlantUmlFileTemplate&quot;: &quot;UML Sequence&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/TP-34-create-models&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/TP-5-uml-diagram",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
+
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\Desktop\Factoria-F5\Proyecto8\trip_planner_back\utils\img" />
     </key>
   </component>
+
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

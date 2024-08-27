@@ -4,45 +4,47 @@
 
 class Users {
     +id: SERIAL [PK]
-    +name: VARCHAR(100)
-    +email: VARCHAR(100) [UNIQUE]
-    +password: VARCHAR(100)
-    + registration_date: TIMESTAMP
+    +name: VARCHAR(80)
+    +password: VARCHAR(20)
+    +email: VARCHAR(200) [UNIQUE]
+    +user_name: VARCHAR(80)
 }
 
 class Destinations {
     +id: SERIAL [PK]
-    +name: VARCHAR(100) [UNIQUE]
+    +name: VARCHAR(255) [UNIQUE]
     +description: TEXT
-    +geographical_location: VARCHAR(200)
+    +country: VARCHAR(100)
+    +image: IMAGE
 }
 
 class Accommodations {
     +id: SERIAL [PK]
-    +destination_id: INTEGER [FK]
-    +name: VARCHAR(100)
+    +name: VARCHAR(255)
     +type: VARCHAR(50)
-    +estimated_price: DECIMAL(10, 2)
-    +address: VARCHAR(200)
+    +address: VARCHAR(255)
     +contact: VARCHAR(100)
-    +description: TEXT
+    +estimated_price: DECIMAL(10, 2)
+    +destination_id: INTEGER [FK]
+    +image: IMAGE
 }
 
 class Activities {
     +id: SERIAL [PK]
-    +destination_id: INTEGER [FK]
-    +name: VARCHAR(100)
-    +description: TEXT
+    +name: VARCHAR(255)
     +type: VARCHAR(50)
-    +estimated_duration: VARCHAR(50)
-    +estimated_cost: DECIMAL(10, 2)
+    +description: TEXT
+    +estimated_price: DECIMAL(10, 2)
+    +destination_id: INTEGER [FK]
+    +image: IMAGE
 }
 
 class Itineraries {
     +id: SERIAL [PK]
-    +destination_id: INTEGER [FK]
+    +description: TEXT()
     +duration_days: INTEGER
-    +description: TEXT
+    +destination_id: INTEGER [FK]
+    +created_at: TIMESTAMP
 }
 
 class Itinerary_Details {
@@ -72,3 +74,4 @@ Activities "1" -- "0..1" Itinerary_Details : included in
 Itineraries "1" -- "0..*" Favorites : saved by
 
 @enduml
+
