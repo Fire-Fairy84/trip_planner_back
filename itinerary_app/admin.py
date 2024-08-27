@@ -13,7 +13,7 @@ class ItineraryAdmin(admin.ModelAdmin):
 
 @admin.register(ItineraryDetails)
 class ItineraryDetailsAdmin(admin.ModelAdmin):
-    list_display = ('itinerary', 'day', 'accommodation', 'activity')
+    list_display = ('itinerary', 'day', 'accommodation', 'activity', 'description')
 
 
 @admin.register(Favorites)

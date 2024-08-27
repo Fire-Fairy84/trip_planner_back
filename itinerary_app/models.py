@@ -13,10 +13,10 @@ class Itinerary(models.Model):
         (3, '3 Days'),
     ]
 
-    description = models.TextField()  # Descripción del itinerario
-    duration = models.IntegerField(choices=DURATION_CHOICES)  # Duración del itinerario en días (1, 2 o 3 días)
+    description = models.TextField()
+    duration = models.IntegerField(choices=DURATION_CHOICES)
     destination = models.ForeignKey(Destination, related_name='itineraries',
-                                    on_delete=models.CASCADE)  # Relación con el destino
+                                    on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
@@ -24,7 +24,7 @@ class Itinerary(models.Model):
 
     class Meta:
         unique_together = (
-            'destination', 'duration')  # Para evitar itinerarios duplicados con el mismo nombre para un destino
+            'destination', 'duration')
 
 
 class ItineraryDetails(models.Model):
@@ -35,6 +35,7 @@ class ItineraryDetails(models.Model):
                                       blank=True, related_name='itinerary_details')
     activity = models.ForeignKey('activity_app.Activity', on_delete=models.SET_NULL, null=True, blank=True,
                                  related_name='itinerary_details')
+    description = models.TextField(null=True, blank=True)
 
     class Meta:
         ordering = ['itinerary', 'day']
