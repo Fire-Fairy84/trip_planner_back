@@ -1,0 +1,106 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b8b0fce-51d4-45fd-a7b7-c5553cd4a296\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/activity_app/serializer.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/activity_app/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/destination_app/models.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/destination_app/models.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/trip_planner_back/urls.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/trip_planner_back/urls.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/diagram.puml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/diagram.puml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"UML Sequence\" />\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"feature/TP-34-create-models\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;Fire-Fairy84&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/Fire-Fairy84/trip_planner_back.git\",\r\n    \"accountId\": \"685d5bcb-62c4-4c24-811e-c52c7b84d1d8\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2l0uF72f08adbpVzBu4g5nbHAIg\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"ASKED_MARK_IGNORED_FILES_AS_EXCLUDED\": \"true\",\r\n    \"DefaultPlantUmlFileTemplate\": \"UML Sequence\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"feature/TP-5-uml-diagram\",\r\n    \"settings.editor.selected.configurable\": \"preferences.editor\"\r\n  }\r\n\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\Administrator\\Desktop\\Factoria-F5\\Proyecto8\\trip_planner_back\\utils\\img\" />\r\n    </key>\r\n  </component>\r\n\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0b8b0fce-51d4-45fd-a7b7-c5553cd4a296\" name=\"Changes\" comment=\"\" />\r\n      <created>1724329208702</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1724329208702</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision b8bfcbbfdfa56eafcc30d08f6921c409ccbb0cb5)
++++ b/.idea/workspace.xml	(date 1724755379572)
+@@ -4,88 +4,22 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0b8b0fce-51d4-45fd-a7b7-c5553cd4a296" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/activity_app/serializer.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/activity_app/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/destination_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/models.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/trip_planner_back/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner_back/urls.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/diagram.puml" beforeDir="false" afterPath="$PROJECT_DIR$/diagram.puml" afterDir="false" />
+-    </list>
++    <list default="true" id="a8385489-8a27-4c13-aab3-1d48f080b35c" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="UML Sequence" />
+-        <option value="Python Script" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="feature/TP-34-create-models" />
+-      </map>
+-    </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="GitHubPullRequestSearchHistory">{
+-  &quot;lastFilter&quot;: {
+-    &quot;state&quot;: &quot;OPEN&quot;,
+-    &quot;assignee&quot;: &quot;Fire-Fairy84&quot;
+-  }
+-}</component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/Fire-Fairy84/trip_planner_back.git",
+-    "accountId": "685d5bcb-62c4-4c24-811e-c52c7b84d1d8"
+-  }
+-}]]></component>
+-  <component name="ProjectColorInfo">{
+-  &quot;associatedIndex&quot;: 3
+-}</component>
+-  <component name="ProjectId" id="2l0uF72f08adbpVzBu4g5nbHAIg" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+-    "DefaultPlantUmlFileTemplate": "UML Sequence",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "feature/TP-5-uml-diagram",
+-    "settings.editor.selected.configurable": "preferences.editor"
++    "git-widget-placeholder": "dev"
+   }
+-
+-}</component>
+-  <component name="RecentsManager">
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\Users\Administrator\Desktop\Factoria-F5\Proyecto8\trip_planner_back\utils\img" />
+-    </key>
+-  </component>
+-
+-  <component name="SharedIndexes">
+-    <attachedChunks>
+-      <set>
+-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+-      </set>
+-    </attachedChunks>
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
++}]]></component>
+   <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="0b8b0fce-51d4-45fd-a7b7-c5553cd4a296" name="Changes" comment="" />
+-      <created>1724329208702</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1724329208702</updated>
+-    </task>
+     <servers />
+   </component>
++  <component name="VcsManagerConfiguration">
++    <option name="LAST_COMMIT_MESSAGE" value="" />
++  </component>
+ </project>
+\ No newline at end of file

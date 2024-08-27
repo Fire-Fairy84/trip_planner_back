@@ -42,7 +42,7 @@ class Activities {
 class Itineraries {
     +id: SERIAL [PK]
     +description: TEXT()
-    +duration_days: INTEGER
+    +duration: INTEGER
     +destination_id: INTEGER [FK]
     +created_at: TIMESTAMP
 }

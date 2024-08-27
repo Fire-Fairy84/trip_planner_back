@@ -4,7 +4,9 @@ from itinerary_app import views
 
 # Para que acceda a los métodos de views
 router = routers.DefaultRouter()
-router.register('itinerary_app', views.ItineraryView, 'itinerary_app')
+router.register('itineraries', views.ItineraryView, basename='itinerary')
+router.register('itinerary-details', views.ItineraryDetailsView, basename='itinerary-details')
+
 
 # Aquí definimos la estructura de la url para cargarla al enrutador
 urlpatterns = [
