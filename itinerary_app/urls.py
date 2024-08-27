@@ -1,10 +1,12 @@
 from django.urls import include, path
 from rest_framework import routers
-from itinerary_app import views
+from . import views
 
 # Para que acceda a los métodos de views
 router = routers.DefaultRouter()
-router.register('itinerary_app', views.ItineraryView, 'itinerary_app')
+router.register('itineraries', views.ItineraryView, basename='itinerary')
+router.register('itinerary-details', views.ItineraryDetailsView, basename='itinerary-details')
+router.register('favorites', views.FavoritesView, basename='favorites')
 
 # Aquí definimos la estructura de la url para cargarla al enrutador
 urlpatterns = [
