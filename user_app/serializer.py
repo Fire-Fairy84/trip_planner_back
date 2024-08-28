@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from user_app.models import User
+from django.contrib.auth.models import User
 
 
 # Serializamos la data que trae ese objeto, en este caso el objeto User
