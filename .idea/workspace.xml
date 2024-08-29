@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56df18a3-1a27-486a-aa5f-1ebb0bdb00d9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_11_15__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_11_15__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_12_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_27_08_2024_12_44__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accommodation_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/destination_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/destination_app/migrations/0002_alter_destination_image.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itinerary_app/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itinerary_app/migrations/0002_itinerarydetails.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itinerary_app/migrations/0003_favorites.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itinerary_app/migrations/0004_itinerarydetails_description.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itinerary_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_app/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_app/migrations/0002_user_user_name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +56,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/TP-15-authentication",
+    "git-widget-placeholder": "feature/TP-16-register",
     "last_opened_file_path": "C:/Users/esthe/Desktop/REPOS/BACKEND/trip_planner_back"
   }
 }]]></component>
