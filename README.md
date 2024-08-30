@@ -123,6 +123,7 @@ El proyecto sigue una estructura común para aplicaciones Django, con la API org
 ```
 ## Tecnologías
 
+
 **Backend**
 - [Python](https://www.python.org/)
 - [Django](https://www.djangoproject.com/)
