@@ -33,15 +33,15 @@ El backend está desarrollado en Python utilizando Django y Django REST Framewor
 
 ## Diagramas
 
-### Diagrama de flujo
+### Workflow
 
-[Ver diagrama de flujo](#) *(https://drive.google.com/file/d/1mTCRFqmTulP77HtNCvABib0hpjCstS6j/view)*
+[Ver workflow](#) *(https://drive.google.com/file/d/1mTCRFqmTulP77HtNCvABib0hpjCstS6j/view)*
 
 ### Diagrama de datos
 
 La base de datos ha sido diseñada para soportar la funcionalidad de la app, con tablas normalizadas para usuarios, destinos, itinerarios, alojamientos y actividades.
 
-<img width="864" alt="uml_diagram" src="/utils/img/diagram.png">
+<img width="864" alt="uml_diagram" src="/utils/img/uml_diagram_viajes.png">
 
 ## Instalación 🛠️
 
