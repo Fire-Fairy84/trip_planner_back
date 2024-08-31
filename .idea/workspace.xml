@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56df18a3-1a27-486a-aa5f-1ebb0bdb00d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/itinerary_app/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accommodation_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,100 +58,61 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_views.TestDestinationView.executor": "Run",
     "Python tests.Python tests for test_views.TestLogoutView.executor": "Run",
     "Python tests.Python tests for test_views.TestLogoutView.test_logout_user_success.executor": "Run",
     "Python tests.Python tests for test_views.TestLogoutView.test_logout_user_without_token.executor": "Run",
     "Python tests.Python tests for test_views.TestRegisterView.test_register_user_missing_field.executor": "Run",
     "Python tests.Python tests for test_views.TestRegisterView.test_register_user_success.executor": "Run",
     "Python tests.Python tests in test_views.py.executor": "Run",
+    "Python tests.Python tests in tests_views.py.executor": "Run",
+    "Python tests.pytest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "feature/TP-10-testing",
     "last_opened_file_path": "C:/Users/esthe/Desktop/REPOS/BACKEND/trip_planner_back"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Python tests for test_views.TestLogoutView" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_views.TestDestinationView">
+    <configuration name="Python tests for test_views.TestDestinationView" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="trip_planner_back" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_app" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/destination_app" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_views.TestLogoutView&quot;" />
+      <option name="_new_target" value="&quot;test_views.TestDestinationView&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_views.TestLogoutView.test_logout_user_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest" type="tests" factoryName="py.test">
       <module name="trip_planner_back" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_app" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_NAME" value="Python 3.12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_views.TestLogoutView.test_logout_user_success&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_views.TestLogoutView.test_logout_user_without_token" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="trip_planner_back" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_views.TestLogoutView.test_logout_user_without_token&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_views.TestRegisterView.test_register_user_missing_field" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="trip_planner_back" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_views.TestRegisterView.test_register_user_missing_field&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_views.TestRegisterView.test_register_user_success" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="trip_planner_back" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user_app" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_views.TestRegisterView.test_register_user_success&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest" />
+      <item itemvalue="Python tests.Python tests for test_views.TestDestinationView" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_views.TestLogoutView.test_logout_user_without_token" />
-        <item itemvalue="Python tests.Python tests for test_views.TestRegisterView.test_register_user_success" />
-        <item itemvalue="Python tests.Python tests for test_views.TestRegisterView.test_register_user_missing_field" />
-        <item itemvalue="Python tests.Python tests for test_views.TestLogoutView.test_logout_user_success" />
-        <item itemvalue="Python tests.Python tests for test_views.TestLogoutView" />
+        <item itemvalue="Python tests.Python tests for test_views.TestDestinationView" />
       </list>
     </recent_temporary>
   </component>
