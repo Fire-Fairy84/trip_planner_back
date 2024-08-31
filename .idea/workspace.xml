@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56df18a3-1a27-486a-aa5f-1ebb0bdb00d9" name="Changes" comment="">
+    <list default="true" id="56df18a3-1a27-486a-aa5f-1ebb0bdb00d9" name="Changes" comment="solve conflicts">
+      <change afterPath="$PROJECT_DIR$/trip_planner_back/test_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accommodation_app/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity_app/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/destination_app/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itinerary_app/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_app/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/test_views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +52,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev",
-    "last_opened_file_path": "C:/Users/esthe/Desktop/REPOS/BACKEND/trip_planner_back"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/esthe/Desktop/REPOS/BACKEND/trip_planner_back&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\esthe\Desktop\REPOS\BACKEND\trip_planner_back\trip_planner_back" />
@@ -87,6 +83,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="solve conflicts" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve conflicts" />
   </component>
 </project>
