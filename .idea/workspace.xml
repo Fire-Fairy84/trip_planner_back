@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56df18a3-1a27-486a-aa5f-1ebb0bdb00d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/itinerary_app/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accommodation_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/activity_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/destination_app/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/itinerary_app/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,22 +49,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_views.TestDestinationView.executor": "Run",
-    "Python tests.Python tests for test_views.TestLogoutView.executor": "Run",
-    "Python tests.Python tests for test_views.TestLogoutView.test_logout_user_success.executor": "Run",
-    "Python tests.Python tests for test_views.TestLogoutView.test_logout_user_without_token.executor": "Run",
-    "Python tests.Python tests for test_views.TestRegisterView.test_register_user_missing_field.executor": "Run",
-    "Python tests.Python tests for test_views.TestRegisterView.test_register_user_success.executor": "Run",
-    "Python tests.Python tests in test_views.py.executor": "Run",
-    "Python tests.Python tests in tests_views.py.executor": "Run",
-    "Python tests.pytest.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/TP-10-testing",
-    "last_opened_file_path": "C:/Users/esthe/Desktop/REPOS/BACKEND/trip_planner_back"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_views.TestDestinationView.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_views.TestLogoutView.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_views.TestLogoutView.test_logout_user_success.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_views.TestLogoutView.test_logout_user_without_token.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_views.TestRegisterView.test_register_user_missing_field.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_views.TestRegisterView.test_register_user_success.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_views.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests_views.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.pytest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/TP-10-testing&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/esthe/Desktop/REPOS/BACKEND/trip_planner_back&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python tests.Python tests for test_views.TestDestinationView">
     <configuration name="Python tests for test_views.TestDestinationView" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="trip_planner_back" />
@@ -107,8 +100,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest" />
       <item itemvalue="Python tests.Python tests for test_views.TestDestinationView" />
+      <item itemvalue="Python tests.pytest" />
     </list>
     <recent_temporary>
       <list>
