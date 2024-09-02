@@ -6,8 +6,6 @@ from .models import Activity
 
 # Create your views here.
 class ActivityView(viewsets.ModelViewSet):
-	serializer_class = ActivitySerializer
+    serializer_class = ActivitySerializer
 
-	# Usar modelo a través del ORM
-	queryset = Activity.objects.all()
-
+    queryset = Activity.objects.all()

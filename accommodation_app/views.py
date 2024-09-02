@@ -6,7 +6,6 @@ from .models import Accommodation
 
 # Create your views here.
 class AccommodationView(viewsets.ModelViewSet):
-	serializer_class = AccommodationSerializer
+    serializer_class = AccommodationSerializer
 
-	# Usar modelo a través del ORM
-	queryset = Accommodation.objects.all()
+    queryset = Accommodation.objects.all()

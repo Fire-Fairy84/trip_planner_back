@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56df18a3-1a27-486a-aa5f-1ebb0bdb00d9" name="Changes" comment="solve conflicts">
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/test_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accommodation_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accommodation_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accommodation_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_app/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner_back/test_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner_back/test_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/serializer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +69,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_views.py.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/esthe/Desktop/REPOS/BACKEND/trip_planner_back&quot;

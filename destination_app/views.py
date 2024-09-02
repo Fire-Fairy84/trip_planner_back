@@ -8,6 +8,6 @@ from .models import Destination
 class DestinationView(viewsets.ModelViewSet):
 	serializer_class = DestinationSerializer
 
-	# Usar modelo a través del ORM
+
 	queryset = Destination.objects.all()
 

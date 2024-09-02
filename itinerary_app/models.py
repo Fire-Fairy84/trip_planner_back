@@ -59,7 +59,7 @@ class Favorites(models.Model):
 
     class Meta:
         unique_together = (
-            'user', 'itinerary')  # Garantiza que un usuario no pueda guardar el mismo itinerario más de una vez
+            'user', 'itinerary')
 
     def __str__(self):
         return f"{self.user} - {self.itinerary} (saved on {self.saved_date})"

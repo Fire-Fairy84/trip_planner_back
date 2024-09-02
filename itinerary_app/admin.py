@@ -2,9 +2,6 @@ from django.contrib import admin
 from itinerary_app.models import Itinerary, ItineraryDetails, Favorites
 
 
-# # Register your models here.
-#
-# admin.site.register(Itinerary, ItineraryDetails)
 
 @admin.register(Itinerary)
 class ItineraryAdmin(admin.ModelAdmin):

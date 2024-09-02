@@ -4,11 +4,9 @@ from .serializer import ItinerarySerializer, ItineraryDetailsSerializer, Favorit
 from .models import Itinerary, ItineraryDetails, Favorites
 
 
-# Create your views here.
 class ItineraryView(viewsets.ModelViewSet):
     serializer_class = ItinerarySerializer
 
-    # Usar modelo a través del ORM
     queryset = Itinerary.objects.all()
 
 

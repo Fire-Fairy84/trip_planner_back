@@ -14,7 +14,6 @@ class TestActivityView:
 
     @pytest.fixture
     def destination(self):
-        # Crea un destino de prueba
         return Destination.objects.create(name='Paris', description='The city of light', country='France')
 
     @pytest.fixture
@@ -42,7 +41,6 @@ class TestActivityView:
         assert Activity.objects.get().name == activity_data['name']
 
     def test_list_activities(self, client, destination):
-        # Primero creamos una actividad
         Activity.objects.create(
             name='Eiffel Tower Tour',
             type='cultural',
@@ -94,7 +92,6 @@ class TestActivityView:
         assert activity.estimated_price == updated_data['estimated_price']
 
     def test_delete_activity(self, client, destination):
-
         activity = Activity.objects.create(
             name='Eiffel Tower Tour',
             type='cultural',
