@@ -23,3 +23,4 @@ class ItinerarySerializer(serializers.ModelSerializer):
         # Le decimos cuáles son los campos de mi modelo que quiero que me estructure. Serialización de la data. Aquí
         # le decimos que queremos que serialice todos los campos
         fields = '__all__'
+
