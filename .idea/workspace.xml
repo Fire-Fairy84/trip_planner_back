@@ -4,31 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b8b0fce-51d4-45fd-a7b7-c5553cd4a296" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/trip_planner_back.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/serializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trip_planner_back/wsgi.py" afterDir="false" />
+    <list default="true" id="56df18a3-1a27-486a-aa5f-1ebb0bdb00d9" name="Changes" comment="solve conflicts">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accommodation_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accommodation_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accommodation_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accommodation_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_app/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/activity_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/destination_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/destination_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/serializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/itinerary_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/itinerary_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trip_planner_back/test_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/trip_planner_back/test_settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user_app/serializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/serializer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +38,48 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
-  <component name="ProjectId" id="2l0uF72f08adbpVzBu4g5nbHAIg" />
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fire-Fairy84&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fire-Fairy84/trip_planner_back.git&quot;,
+    &quot;accountId&quot;: &quot;3fe15a83-d7ed-4d31-8c42-0e800f6b50f9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2lHdx8JMMrKZv3ph4AaHepE19mP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in test_views.py.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/esthe/Desktop/REPOS/BACKEND/trip_planner_back&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\esthe\Desktop\REPOS\BACKEND\trip_planner_back\trip_planner_back" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,12 +90,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0b8b0fce-51d4-45fd-a7b7-c5553cd4a296" name="Changes" comment="" />
-      <created>1724329208702</created>
+      <changelist id="56df18a3-1a27-486a-aa5f-1ebb0bdb00d9" name="Changes" comment="" />
+      <created>1724841181230</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1724329208702</updated>
+      <updated>1724841181230</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="solve conflicts" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve conflicts" />
   </component>
 </project>

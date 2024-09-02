@@ -1,0 +1,77 @@
+   @startuml
+
+' Definition of the entities
+
+class Users {
+    +id: SERIAL [PK]
+    +name: VARCHAR(80)
+    +password: VARCHAR(20)
+    +email: VARCHAR(200) [UNIQUE]
+    +user_name: VARCHAR(80)
+}
+
+class Destinations {
+    +id: SERIAL [PK]
+    +name: VARCHAR(255) [UNIQUE]
+    +description: TEXT
+    +country: VARCHAR(100)
+    +image: IMAGE
+}
+
+class Accommodations {
+    +id: SERIAL [PK]
+    +name: VARCHAR(255)
+    +type: VARCHAR(50)
+    +address: VARCHAR(255)
+    +contact: VARCHAR(100)
+    +estimated_price: DECIMAL(10, 2)
+    +destination_id: INTEGER [FK]
+    +image: IMAGE
+}
+
+class Activities {
+    +id: SERIAL [PK]
+    +name: VARCHAR(255)
+    +type: VARCHAR(50)
+    +description: TEXT
+    +estimated_price: DECIMAL(10, 2)
+    +destination_id: INTEGER [FK]
+    +image: IMAGE
+}
+
+class Itineraries {
+    +id: SERIAL [PK]
+    +description: TEXT()
+    +duration: INTEGER
+    +destination_id: INTEGER [FK]
+    +created_at: TIMESTAMP
+}
+
+class Itinerary_Details {
+    +id: SERIAL [PK]
+    +itinerary_id: INTEGER [FK]
+    +day: INTEGER
+    +accommodation_id: INTEGER [FK]
+    +activity_id: INTEGER [FK]
+}
+
+class Favorites {
+    +id: SERIAL [PK]
+    +user_id: INTEGER [FK]
+    +itinerary_id: INTEGER [FK]
+    +saved_date: TIMESTAMP
+}
+
+' Relationships with cardinality
+
+Users "1" -- "0..*" Favorites : saves
+Destinations "1" -- "0..*" Accommodations : contains
+Destinations "1" -- "0..*" Activities : offers
+Destinations "1" -- "0..*" Itineraries : has
+Itineraries "1" -- "1..*" Itinerary_Details : consists of
+Accommodations "1" -- "0..1" Itinerary_Details : included in
+Activities "1" -- "0..1" Itinerary_Details : included in
+Itineraries "1" -- "0..*" Favorites : saved by
+
+@enduml
+
